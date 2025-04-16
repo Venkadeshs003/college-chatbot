@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning"],
+      "responses": ["Hello! How can I help you with your college queries?"]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["When is the last date to pay fees?", "Fee payment deadline?", "Due date for fees"],
+      "responses": ["The last date to pay fees is April 30th, 2025."]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": ["When are the semester exams?", "Exam timetable", "Semester exam schedule"],
+      "responses": ["Semester exams will start from May 15th, 2025. Timetable will be shared soon."]
+    },
+    {
+      "tag": "hod",
+      "patterns": ["Who is the HOD of CSE?", "CSE head of department", "HOD of computer science"],
+      "responses": ["Dr. R. Kumar is the current Head of the CSE Department."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Feel free to ask more questions anytime."]
+    }
+  ]
+}
